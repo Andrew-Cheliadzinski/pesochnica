@@ -27,3 +27,7 @@ function paperwork(n, m) {
 function repeatStr (n, s) {
     return s.repeat(n);
 }
+
+function greet() {
+    return "hello world!"
+  }
