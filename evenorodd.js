@@ -22,4 +22,8 @@ function paperwork(n, m) {
       return n * m
     }
   }
-  
+
+/* В JS нельязя перемножить строку на число.*/
+function repeatStr (n, s) {
+    return s.repeat(n);
+}
