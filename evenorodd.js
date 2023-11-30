@@ -9,3 +9,8 @@ function evenOrOdd(number) {
         return "Odd"
     }
 }
+
+
+function doubleInteger(i) {
+    return i *= i;
+}
