@@ -30,4 +30,9 @@ function repeatStr (n, s) {
 
 function greet() {
     return "hello world!"
-  }
+}
+
+
+function digitize(n) {
+    return String(n).split('').map(Number).reverse()
+}
